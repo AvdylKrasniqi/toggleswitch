@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blurred Circle Border</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<script type="application/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+<div class="pullSurface">
+	<div class="pull">
+
+	</div>
+</div>
+<div class="pullSurface">
+	<div class="pull">
+
+	</div>
+</div>
+<div class="pullSurface">
+	<div class="pull">
+
+	</div>
+</div>
+
+<script>
+	$(".pullSurface").click(function () {
+    $(this).toggleClass("Active");
+    $(jQuery(".pull", this)).toggleClass("Active");
+});
+</script>
+
+</body>
+</html>
