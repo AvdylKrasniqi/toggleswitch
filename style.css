@@ -1,0 +1,36 @@
+/* Author: Avcyl Kransiqi
+GitHub: https://github.com/AvdylKrasniqi/
+
+2018
+*/
+.pullSurface {
+  height: 50px;
+  width: 100px; /* this should be */
+  background-color: #eaeaea;
+  border: 1px solid #cacaca;
+  border-radius: 50px;
+  overflow: hidden;
+  cursor: pointer;
+  margin: 0;
+}
+.pull {
+  height: 100%;
+  width: 50%;
+  border-radius: 50px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border: 5px solid #fff;
+  margin: 0;
+  transition: margin 700ms;
+}
+
+.pullSurface.Active {
+  background-color: #54ff29;
+  border: 1px solid #bbbbbba8;
+}
+.pull.Active {
+  background-color: #4ce825;
+  border: 5px solid #fff;
+  margin-left: 50%;
+}
